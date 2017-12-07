@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1 , h2 {
+	margin: 0;
+}
+
+.btn {
+	/*background-color: #27ae60;*/
+	width: 50%;
+	padding: 6px 15px;
+	color: #27ae60;
+	border-radius: 15px;
+	border: 2px solid #27ae60;
+	text-decoration: none;
+	display: inline-block;
+	margin: 10px 0;
+	transition: all 0.2s ease-in-out;
+	text-align: center;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.btn:hover {
+	background-color: #27ae60;
+	color: snow;
+}
+
+.btn-1 {
+	/*background-color: #27ae60;*/
+	width: 50%;
+	padding: 6px 15px;
+	color: #27ae60;
+	border-radius: 15px;
+	border: 2px solid #27ae60;
+	text-decoration: none;
+	display: inline-block;
+	margin: 10px 0;
+	transition: all 0.2s ease-in-out;
+	text-align: center;
+}
+
+.btn-1:hover {
+	background-color: #27ae60;
+	color: snow;
+}
+
+.nav-bar {
+	background-color: #212121;
+	padding: 10px 0px;
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+}
+
+.nav-bar .container {
+	display: flex;
+	align-items: center;
+}
+
+.nav-bar a {
+	color: white;
+	text-decoration: none;
+	padding: 0 15px;
+}
+
+.nav-bar img {
+	max-width: 40px;
+	max-height: 40px;
+}
+
+.hero-image {
+	background-image: url(plant.jpg);
+	background-size: cover;
+	background-position: center center;
+	padding-top: 200px;
+	padding-bottom: 200px;
+}
+
+.hero-image h2 {
+	color: #393838;
+	text-shadow: 0px 0px 5px white;
+}
+
+.intro-text {
+	font-size: 1.2rem;
+	margin: 0;
+}
+
+.pricing-parent {
+	display: flex;
+}
+
+.column-third {
+	width: calc(100% / 3);
+	border: 1px solid #ccc;
+	padding: 20px 20px 60px 20px;
+	background-color: #f2f2f2;
+	box-shadow: 3px 3px 15px #888888;
+	position: relative;
+}
+
+.column-third:nth-child(2) {
+	margin: 0 20px;
+}
+
+.column-third ul {
+	margin: 0;
+	padding: 0;
+}
+
+.column-third li {
+	list-style-type: none;
+	padding: 5px 0;
+}
+
+.pricing-bar {
+	width: calc(100% + 41px);
+	background-color: #393838;
+	margin: 10px -20px;
+}
+
+.price-style {
+	font-size: 1.5em;
+	color: orange;
+	padding: 10px 20px;	
+	margin: 0;
+}
+
+.btn-pos {
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+}
+
+.p-heading {
+	font-size: 2rem;
+	margin: 0 0 2em 0;
+}
+
+.minor-heading {
+	font-size: 1.5rem;
+}
+
+.minor-heading.no-spacing {
+	margin: 0;
+	padding: 0;
+}
+
+.spacing {
+	padding: 3em 0;
+}
+
+.container {
+	max-width: 920px;
+	margin: 0 auto;
+}
+
+.dark-section{
+	background-color: #212121;
+	color: snow;
+}
+
+.center {
+	text-align: center;
+}
+
+.aloha {
+	background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(aloha.jpg);
+	background-size: cover;
+	background-position: center center;
+	padding-top: 60px;
+	padding-bottom: 60px;
+
+}
+
+.siberia {
+	background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url(siberia.jpg);
+	background-size: cover;
+	background-position: center center;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.nordic {
+	background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(nordic.jpg);
+	background-size: cover;
+	background-position: center center;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.p-style-img {
+	font-size: 2em;
+	color: white;
+}
+
+.p-img {
+	font-size: 1.5em;
+	color: white;
+}
+
+.form-parent {
+	display: flex;
+	flex-flow: column wrap;	
+}
+
+.form-parent label,
+input,
+textarea {
+	width: 50%;
+}
+
+input,
+textarea {
+	padding: 5px;
+	border-radius: 3px;
+	border: 0;
+	border: 1px solid #ccc;
+}
+
+label {
+	margin-top: 15px;
+}
+
+label:first-child {
+	margin: 0;
+}
+
+
+.footer-style ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.footer-style ul li {
+	margin: 10px 0;
+}
+
+.footer-style ul li a {
+	color: white;
+}
+
+.ul-flex {
+	display: flex;
+	justify-content: space-between;
+}
+
+.copy-text {
+	color: #ccc;
+	font-size: 0.8em;
+}
+
