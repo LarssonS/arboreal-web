@@ -13,48 +13,6 @@ h1 , h2 {
 	margin: 0;
 }
 
-.btn {
-	/*background-color: #27ae60;*/
-	width: 50%;
-	padding: 6px 15px;
-	color: #27ae60;
-	border-radius: 15px;
-	border: 2px solid #27ae60;
-	text-decoration: none;
-	display: inline-block;
-	margin: 10px 0;
-	transition: all 0.2s ease-in-out;
-	text-align: center;
-	position: absolute;
-	bottom: 0;
-	left: 50%;
-	transform: translateX(-50%);
-}
-
-.btn:hover {
-	background-color: #27ae60;
-	color: snow;
-}
-
-.btn-1 {
-	/*background-color: #27ae60;*/
-	width: 50%;
-	padding: 6px 15px;
-	color: #27ae60;
-	border-radius: 15px;
-	border: 2px solid #27ae60;
-	text-decoration: none;
-	display: inline-block;
-	margin: 10px 0;
-	transition: all 0.2s ease-in-out;
-	text-align: center;
-}
-
-.btn-1:hover {
-	background-color: #27ae60;
-	color: snow;
-}
-
 .nav-bar {
 	background-color: #212121;
 	padding: 10px 0px;
@@ -80,7 +38,7 @@ h1 , h2 {
 }
 
 .hero-image {
-	background-image: url(plant.jpg);
+	background-image: url(images/plant.jpg);
 	background-size: cover;
 	background-position: center center;
 	padding-top: 200px;
@@ -95,6 +53,7 @@ h1 , h2 {
 .intro-text {
 	font-size: 1.2rem;
 	margin: 0;
+	font-weight: normal;
 }
 
 .pricing-parent {
@@ -137,19 +96,43 @@ h1 , h2 {
 	margin: 0;
 }
 
+.btn {
+	width: 50%;
+	padding: 6px 15px;
+	color: #27ae60;
+	border-radius: 15px;
+	border: 2px solid #27ae60;
+	text-decoration: none;
+	display: inline-block;
+	margin: 10px 0;
+	transition: all 0.2s ease-in-out;
+	text-align: center;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.btn:hover {
+	background-color: #27ae60;
+	color: snow;
+}
+
 .btn-pos {
 	display: flex;
 	align-items: flex-end;
 	justify-content: center;
 }
 
-.p-heading {
+.h2-heading {
 	font-size: 2rem;
 	margin: 0 0 2em 0;
+	font-weight: normal;
 }
 
 .minor-heading {
 	font-size: 1.5rem;
+	font-weight: normal;
 }
 
 .minor-heading.no-spacing {
@@ -176,7 +159,7 @@ h1 , h2 {
 }
 
 .aloha {
-	background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(aloha.jpg);
+	background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(images/aloha.jpg);
 	background-size: cover;
 	background-position: center center;
 	padding-top: 60px;
@@ -185,7 +168,7 @@ h1 , h2 {
 }
 
 .siberia {
-	background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url(siberia.jpg);
+	background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url(images/siberia.jpg);
 	background-size: cover;
 	background-position: center center;
 	padding-top: 60px;
@@ -193,7 +176,7 @@ h1 , h2 {
 }
 
 .nordic {
-	background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(nordic.jpg);
+	background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(images/nordic.jpg);
 	background-size: cover;
 	background-position: center center;
 	padding-top: 60px;
@@ -237,6 +220,23 @@ label:first-child {
 	margin: 0;
 }
 
+.btn-1 {
+	width: 50%;
+	padding: 6px 15px;
+	color: #27ae60;
+	border-radius: 15px;
+	border: 2px solid #27ae60;
+	text-decoration: none;
+	display: inline-block;
+	margin: 10px 0;
+	transition: all 0.2s ease-in-out;
+	text-align: center;
+}
+
+.btn-1:hover {
+	background-color: #27ae60;
+	color: snow;
+}
 
 .footer-style ul {
 	margin: 0;
@@ -252,7 +252,7 @@ label:first-child {
 	color: white;
 }
 
-.ul-flex {
+.footer-info {
 	display: flex;
 	justify-content: space-between;
 }
