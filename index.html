@@ -2,18 +2,28 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Document</title>
 	<link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body id="home">
 	<nav class="nav-bar">
 		<div class="container">
-			<img src="images/logo.svg" alt="Arboreal logotype">
-			<a href="#home">Home</a>
-			<a href="#pricing">Pricing</a>
-			<a href="#themes">Themes</a>
-			<a href="#about">About</a>
-			<a href="#contact">Contact</a>
+			<div class="top-row">
+				<img src="images/logo.svg" alt="Arboreal logotype">
+				<div class="hamburger">
+					<span class="bar"></span>
+					<span class="bar"></span>
+					<span class="bar"></span>
+				</div>	
+			</div>
+			<div class="nav-links">
+				<a href="#home">Home</a>
+				<a href="#pricing">Pricing</a>
+				<a href="#themes">Themes</a>
+				<a href="#about">About</a>
+				<a href="#contact">Contact</a>
+			</div>
 		</div>
 	</nav>
 	<header class="hero-image">
@@ -111,7 +121,7 @@
 		</div>
 	</section>
 	<section id="contact" class="spacing container">
-		<h2 class="minor-heading">Connect with us</h2>
+		<h2 class="h2-heading">Connect with us</h2>
 		<form>
 			<div class="form-parent">
 				<label for="name">Name</label>
@@ -125,7 +135,7 @@
 				<label for="message">Message</label>
 				<textarea rows="5" id="message"></textarea>
 			</div>
-			<a href="#" class="btn-1">Send Message</a>
+			<button type="submit" class="btn-1">Send Message</button>
 		</form>
 	</section>
 	<footer class="dark-section footer-style spacing">
