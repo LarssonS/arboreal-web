@@ -17,3 +17,8 @@ Inlämningsuppgift
 * Punkt 2: Jag har valt att inte skriva kommentarer då jag tycker jag har självförklarande kod.
 
 * Punkt 3: Jag åtgärda så jag har samma struktur i min html/css.
+
+## Breakpoints
+
+* Motivering: Jag har valt att använda dessa breakpoints för att google anser dessa som standard, samt att jag tyckte dom var vettiga i mitt fall. Sedan har jag valt att lägga in yttligare breakpoints för att få en bättre övergång mellan enheter.
+
