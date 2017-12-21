@@ -22,3 +22,6 @@ Inlämningsuppgift
 
 * Motivering: Jag har valt att använda dessa breakpoints för att google anser dessa som standard, samt att jag tyckte dom var vettiga i mitt fall. Sedan har jag valt att lägga in yttligare breakpoints för att få en bättre övergång mellan enheter.
 
+## This is responsive: patterns 
+
+* Mostly fluid: är den designen som passar för min sida. Jag kör en väldigt enkel design för att underlätta att göra sidan responsiv.
